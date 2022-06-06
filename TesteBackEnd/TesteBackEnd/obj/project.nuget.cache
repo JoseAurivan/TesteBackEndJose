@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kb6JE/T4L/8tM6L7SXt4Y7z+bVZkydrebX9nEEpeijVebaqjTGAyPLD3aIbdjyOx09QxNav/Btu645UQ/clMcw==",
+  "dgSpecHash": "+btwNTbJbt9ZgnkoTx9gTZGPpCDRyIrKDET1qnAgaEwIr/7DTDpr+CN5FZ9JcjgKMyZDzUBXABpQDrfA88VkOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj",
+  "projectFilePath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\José\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\José\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",

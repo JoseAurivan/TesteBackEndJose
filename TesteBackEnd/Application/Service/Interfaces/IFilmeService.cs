@@ -8,6 +8,8 @@ namespace Application.Service.Interfaces
     {
         Task<ServiceResult> SalvarFilmeAsync(Filme filme);
         Task<ServiceResult> ObterFilmes();
-        Task<ServiceResult> ObterFilmesDisponíveis(Status status);
+        Task<ServiceResult> ObterFilmesDisponíveis();
+        Task<ServiceResult> BuscarFilmePorCodigo(int codFilme);
+        Task<ServiceResult> IndisponibilizarFilme(Filme filme);
     }
 }

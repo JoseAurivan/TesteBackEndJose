@@ -1997,7 +1997,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Application": "1.0.0",
           "Database": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
@@ -6811,11 +6815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6830,8 +6834,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj": {
-              "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj"
+            "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj": {
+              "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\TesteBackEnd\\TesteBackEnd.csproj"
             }
           }
         }

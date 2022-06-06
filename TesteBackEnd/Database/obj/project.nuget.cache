@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bg+2D+TQSeqxQXO39n6zO3UQ4QFyFDbznMFcdJsbvZm7kccRDsGJO0+oEkvX/HYvVEh61t4wGm96u3AdeWkcWg==",
+  "dgSpecHash": "GuYiLiCc4VmkAMRLmwR0ufhm51Kd2diXAQQ+KMaZfIb1EuIJnvmtIYowIJakC0GshVBX487FIim4Ki0hCM4oGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\Database.csproj",
+  "projectFilePath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\José\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\José\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",

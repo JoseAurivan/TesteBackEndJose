@@ -10,6 +10,7 @@ namespace Database
         public static IServiceCollection AddDatabaseContext(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddDbContext<Context>(opt => opt.UseInMemoryDatabase("teste"));
+            serviceCollection.AddScoped<IContext>(sp => sp.GetRequiredService<Context>());
             return serviceCollection;
         }
         

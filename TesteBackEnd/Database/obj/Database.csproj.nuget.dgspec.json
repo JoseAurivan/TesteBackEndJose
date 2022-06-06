@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\Database.csproj": {}
+    "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\Application.csproj": {
+    "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\obj\\",
+        "outputPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj"
+              "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\Database.csproj": {
+    "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\Database.csproj",
+        "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\Database.csproj",
         "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Database\\obj\\",
+        "outputPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Application\\Application.csproj"
+              "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Application\\Application.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj": {
+    "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config"

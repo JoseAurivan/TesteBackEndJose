@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L38zQiSYEljrKRPS+xrZalfOurRVvgWjqy57Es31ENaomc1jRcFFCLpXDeyurW6zMiNxSOAuZP9GHtHHagKT2Q==",
+  "dgSpecHash": "0dV8oBrlvR+RMdLb98VvIS/2+Yncc8mkjZHQUlGiHyPF2X+siYt65wZyx7NCS0KziKoxjnmV8ECuiyUD0gMlsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\José\\RiderProjects\\TesteBackEnd\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\José\\Desktop\\TesteBackEnd\\TesteBackEndJose\\TesteBackEnd\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

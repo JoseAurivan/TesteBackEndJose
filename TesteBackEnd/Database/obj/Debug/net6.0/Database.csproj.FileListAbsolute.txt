@@ -1,0 +1,38 @@
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.deps.json
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.runtimeconfig.json
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.dll
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.pdb
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Application.dll
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Domain.dll
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Application.pdb
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Domain.pdb
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.CopyComplete
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.dll
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\refint\Database.dll
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.pdb
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
+C:\Users\auriv\OneDrive\Área de Trabalho\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\ref\Database.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.deps.json
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.runtimeconfig.json
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Database.pdb
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Application.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Domain.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Application.pdb
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\bin\Debug\net6.0\Domain.pdb
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.csproj.CopyComplete
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\refint\Database.dll
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.pdb
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\Database.genruntimeconfig.cache
+C:\Users\José\Desktop\TesteBackEnd\TesteBackEndJose\TesteBackEnd\Database\obj\Debug\net6.0\ref\Database.dll
