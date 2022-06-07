@@ -25,7 +25,7 @@ namespace TesteBackEnd.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await _filmeService.ObterFilmes();
+            var result = await _filmeService.ObterFilmesDisponíveis();
             if (result.Type == ServiceResultType.Success)
             {
                 if (result is ServiceResult<List<Filme>> resultado)

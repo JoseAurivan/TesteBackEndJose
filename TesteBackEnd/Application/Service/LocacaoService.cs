@@ -56,9 +56,14 @@ namespace Application.Service
             if (cliente is not null && filme is not null)
             {
                 cliente.Locacoes.Add(locacao);
+                locacao.FilmeId = filme.Id;
                 locacao.Cliente = cliente;
                 locacao.Filme = filme;
+                filme.Locacao = locacao;
                 _context.Entry(cliente).State = EntityState.Modified;
+                _context.Entry(filme).State = EntityState.Modified;
+                _context.Clientes.Update(cliente);
+                _context.Filmes.Update(filme);
                 _context.Locacoes.Add(locacao);
                 await _context.SaveChangesAsync();
                 return new ServiceResult<int>(ServiceResultType.Success)
@@ -78,7 +83,10 @@ namespace Application.Service
 
         public async Task<ServiceResult> ObterLocacoes()
         {
-            var locacoes = await _context.Locacoes.ToListAsync();
+            var locacoes = await _context.Locacoes
+                .Include(c => c.Cliente)
+                .Include(c => c.Filme)
+                .ToListAsync();
             if (locacoes is null)
             {
                 return new ServiceResult(ServiceResultType.NotValid)

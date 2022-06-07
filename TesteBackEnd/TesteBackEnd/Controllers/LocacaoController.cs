@@ -51,7 +51,7 @@ namespace TesteBackEnd.Controllers
             if (locacao is not null || codFilme is not 0 || cpf is not null)
             {
                 locacao.StatusLocacao = LocStatus.Locado;
-                locacao.DataDeLocacao = DateTime.Now;
+                locacao.DataDeLocacao = DateTime.Today;
                 locacao.DataEsperadaDeDevolucao = DateTime.Today.AddDays(3);
                 var resultado = await _locacaoService.SalvarLocacao(locacao, codFilme, cpf);
                 if (resultado.Type == ServiceResultType.Success)

@@ -48,7 +48,7 @@ namespace Application.Service
             {
                 return new ServiceResult(ServiceResultType.InternalError)
                 {
-                    Messages = new[] { "Erro ao fazer Login" }
+                    Messages = new[] { "Erro ao salvar cliente" }
                 };
             }
         }
@@ -67,7 +67,6 @@ namespace Application.Service
             }
 
             var result = await ProcurarClienteCpf(cliente.Cpf);
-
             if (result is not null)
             {
                 if (result is ServiceResult<Cliente> resultado)
@@ -90,7 +89,9 @@ namespace Application.Service
 
         public async Task<ServiceResult> ProcurarClienteCpf(string cpf)
         {
-            var cliente = await _context.Clientes.Where(c => c.Cpf == cpf).FirstOrDefaultAsync();
+            var cliente = await _context.Clientes.Where(c => c.Cpf == cpf)
+                .Include(c => c.Locacoes)
+                .FirstOrDefaultAsync();
             if (cliente is not null)
             {
                 return new ServiceResult<Cliente>(ServiceResultType.Success)

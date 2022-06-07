@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Application;
+using Database.FluentAPIConfiguration;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +21,10 @@ namespace Database
         public DbSet<Locacao> Locacoes { get; set; }
         public DbSet<Filme> Filmes { get; set; }
         public Task SaveChangesAsync() =>  SaveChangesAsync(default);
-        
-        
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ClienteApiConfiguration());
+        }
     }
 }

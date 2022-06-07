@@ -20,6 +20,7 @@ namespace Tests
         public ClienteControllerTest()
         {
             _clienteController = new ClienteController(_clienteService);
+            
         }
         [Fact]
         public async void Test1()
