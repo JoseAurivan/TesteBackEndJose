@@ -142,7 +142,9 @@ namespace Application.Service
 
         public async Task<ServiceResult> BuscarLocacaoCodigo(int codLocacao)
         {
-            var locacao = await _context.Locacoes.Where(c => c.codLocacao == codLocacao).FirstOrDefaultAsync();
+            var locacao = await _context.Locacoes.Where(c => c.codLocacao == codLocacao)
+                .Include(c => c.Filme)
+                .FirstOrDefaultAsync();
             if (locacao is null)
             {
                 return new ServiceResult(ServiceResultType.NotValid)
@@ -175,9 +177,14 @@ namespace Application.Service
                         locacao.StatusLocacao = LocStatus.EntregueComAtraso;
                     
                     locacao.Filme.Status = Status.Disponivel;
+                    locacao.Filme.Locacao = null;
                     _context.Entry(locacao.Filme).State = EntityState.Modified;
                     _context.Entry(locacao).State = EntityState.Modified;
                     await _context.SaveChangesAsync();
+                    return new ServiceResult<int>(ServiceResultType.Success)
+                    {
+                        Result = locacao.Id
+                    };
                 }
             }
             return new ServiceResult(ServiceResultType.NotValid)

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Application.Service.Interfaces;
 using Application.DataStructure;
@@ -30,14 +32,21 @@ namespace TesteBackEnd.Controllers
             {
                 if (result is ServiceResult<List<Filme>> resultado)
                 {
-                    return new JsonResult(resultado.Result);
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        ReferenceHandler = ReferenceHandler.Preserve
+                    };
+                    var jsonResult = new JsonResult(resultado.Result);
+                    jsonResult.SerializerSettings = options;
+                    return jsonResult;
                 }
             }
 
             return BadRequest();
         }
 
- 
+        //Busca apenas filmes disponíveis
         [HttpGet("{codFilme:int}")]
         public async Task<IActionResult> Get(int codFilme)
         {
@@ -46,7 +55,14 @@ namespace TesteBackEnd.Controllers
             {
                 if(result is ServiceResult<Filme> resultado)
                 {
-                    return new JsonResult(resultado.Result);
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        ReferenceHandler = ReferenceHandler.Preserve
+                    };
+                    var jsonResult = new JsonResult(resultado.Result);
+                    jsonResult.SerializerSettings = options;
+                    return jsonResult;
                 }
             }
             return BadRequest();
@@ -67,10 +83,7 @@ namespace TesteBackEnd.Controllers
             return BadRequest();
         }
 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+
 
 
     }

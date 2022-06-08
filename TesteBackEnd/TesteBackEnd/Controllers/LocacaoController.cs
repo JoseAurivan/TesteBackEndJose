@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Application.DataStructure;
 using Application.Enums;
@@ -30,21 +32,20 @@ namespace TesteBackEnd.Controllers
             {
                 if (result is ServiceResult<List<Locacao>> resultado)
                 {
-                    return new JsonResult(resultado.Result);
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        ReferenceHandler = ReferenceHandler.Preserve
+                    };
+                    var jsonResult = new JsonResult(resultado.Result);
+                    jsonResult.SerializerSettings = options;
+                    return jsonResult;
                 }
             }
 
             return BadRequest();
         }
-
-
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-
+        
         [HttpPost("{codFilme:int}")]
         public async Task<IActionResult> Post([FromBody] Locacao locacao, int codFilme, [FromHeader] string cpf)
         {
@@ -67,10 +68,20 @@ namespace TesteBackEnd.Controllers
         }
 
         //Método usado para encerrar a locacao
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("{codfilme}")]
+        public async Task<IActionResult> Put(int codfilme)
         {
-            
+            var resultado = await _locacaoService.EncerrarLocacao(codfilme);
+            if (resultado.Type == ServiceResultType.Success)
+            {
+                if (resultado is ServiceResult<int> result)
+                {
+                    return new JsonResult(result.Result);
+                }
+            }
+
+            return BadRequest();
+
         }
 
         

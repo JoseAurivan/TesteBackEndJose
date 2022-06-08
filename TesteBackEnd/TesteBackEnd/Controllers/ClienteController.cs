@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Application.DataStructure;
 using Application.Enums;
@@ -30,7 +32,14 @@ namespace TesteBackEnd.Controllers
             {
                 if (result is ServiceResult<List<Cliente>> resultado)
                 {
-                    return new JsonResult(resultado.Result);
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        ReferenceHandler = ReferenceHandler.Preserve
+                    };
+                    var jsonResult = new JsonResult(resultado.Result);
+                    jsonResult.SerializerSettings = options;
+                    return jsonResult;
                 }
             }
 
@@ -45,7 +54,14 @@ namespace TesteBackEnd.Controllers
             {
                 if(result is ServiceResult<Cliente> resultado)
                 {
-                    return new JsonResult(resultado.Result);
+                    var options = new JsonSerializerOptions
+                    {
+                        WriteIndented = true,
+                        ReferenceHandler = ReferenceHandler.Preserve
+                    };
+                    var jsonResult = new JsonResult(resultado.Result);
+                    jsonResult.SerializerSettings = options;
+                    return jsonResult;
                 }
             }
             return BadRequest();
@@ -67,10 +83,6 @@ namespace TesteBackEnd.Controllers
 
         }
 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
 
 
     }
